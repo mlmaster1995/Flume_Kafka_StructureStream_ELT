@@ -1,0 +1,19 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/elt_pipline_container_2.11-0.1.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$anonfun$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPipeline.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/classes/DataPipeline.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$typecreator1$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$anonfun$1$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$anonfun$1$$anonfun$apply$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	DataPipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/classes/DataPipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
