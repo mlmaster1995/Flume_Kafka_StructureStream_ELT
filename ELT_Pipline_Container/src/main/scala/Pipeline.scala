@@ -1,4 +1,4 @@
-// Perform ELT
+// Implement ELT Pipeline
 object Pipeline extends Serializable {
 
   def main(args: Array[String]): Unit = {
@@ -7,6 +7,7 @@ object Pipeline extends Serializable {
     // Transform
     val transformedSource = ELT.transform(dataSource)
     // Load
-    ELT.Load.to_hdfs(transformedSource, "parquet", "append", "snappy", "stream_data/", "checkpoint/").start().awaitTermination()
+    ELT.Load.to_hdfs(transformedSource,hdfsPath="stream_data/", checkpointPath="checkpoint/", format="parquet", mode="append", compressionType="snappy")
+//    ELT.Load.to_console(transformedSource)
   }
 }
