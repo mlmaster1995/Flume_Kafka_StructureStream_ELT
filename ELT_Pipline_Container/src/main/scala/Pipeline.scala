@@ -1,3 +1,5 @@
+import PipelineUtils.{brokers, extractRowValueFromVmstat}
+
 // Implement ELT Pipeline
 object Pipeline extends Serializable {
 
@@ -7,7 +9,8 @@ object Pipeline extends Serializable {
     // Transform
     val transformedSource = ELT.transform(dataSource)
     // Load
-    ELT.Load.to_hdfs(transformedSource,hdfsPath="stream_data/", checkpointPath="checkpoint/", format="parquet", mode="append", compressionType="snappy")
+//    ELT.Load.to_hdfs(transformedSource,hdfsPath="stream_data/", checkpointPath="checkpoint/", format="parquet", mode="append", compressionType="snappy")
 //    ELT.Load.to_console(transformedSource)
+    ELT.Load.to_kafka(transformedSource, "toHive", s"${brokers(4)}", extractRowValueFromVmstat)
   }
 }

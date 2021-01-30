@@ -1,5 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/ELT_Pipline_Container/src/main/scala/DataPipeline.scala:29:18: not enough arguments for method withColumn: (colName: String, col: org.apache.spark.sql.Column)org.apache.spark.sql.DataFrame.[0m
-[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter col.[0m
-[0m[[0m[31merror[0m] [0m[0m      .withColumn(filterRow('raw_value) alias "value")[0m
-[0m[[0m[31merror[0m] [0m[0m                 ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/src/main/scala/ELT.scala:53:34: too many arguments for constructor HiveWriter: (db: String, tbl: String)HiveWriter[0m
+[0m[[0m[31merror[0m] [0m[0m      source.writeStream.foreach(new HiveWriter(database, table, spark)).start().awaitTermination()[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
