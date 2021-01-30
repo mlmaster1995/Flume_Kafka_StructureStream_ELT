@@ -9,8 +9,10 @@ object Pipeline extends Serializable {
     // Transform
     val transformedSource = ELT.transform(dataSource)
     // Load
-//    ELT.Load.to_hdfs(transformedSource,hdfsPath="stream_data/", checkpointPath="checkpoint/", format="parquet", mode="append", compressionType="snappy")
-//    ELT.Load.to_console(transformedSource)
-    ELT.Load.to_kafka(transformedSource, "toHive", s"${brokers(4)}", extractRowValueFromVmstat)
+//    ELT.Load.toHdfs(transformedSource,hdfsPath="stream_data/", checkpointPath="checkpoint/", format="parquet", mode="append", compressionType="snappy")
+//    ELT.Load.toConsole(transformedSource)
+//    ELT.Load.toKafka(transformedSource, topic ="toHive", servers = s"${brokers(4)}", extract_func = extractRowValueFromVmstat)
+//    ELT.Load.toHive(transformedSource, "/apps/hive/warehouse/chrisy.db/streamhive", "checkpoint/", "parquet", "append")
+
   }
 }

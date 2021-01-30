@@ -2,7 +2,6 @@ import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 import org.apache.log4j.{Level, Logger}
 import org.apache.spark.sql.{ForeachWriter, Row, SparkSession}
 import org.apache.spark.sql.functions.udf
-
 import java.util.Properties
 
 object PipelineUtils extends Serializable {
@@ -27,13 +26,14 @@ object PipelineUtils extends Serializable {
     4 -> "cxln4.c.thelab-240901.internal:6667"
   )
 
+
   val filterRow = udf {x:String=>x.split("\\W").filter(y=>y.length>0) }
 
 
   val extractRowValueFromVmstat: Row=>String = (row:Row) =>{
     val rowMap: Map[String, AnyVal] = row.getValuesMap(row.schema.fieldNames)
-    s"${rowMap("topic")}|${rowMap("timestamp")}|${rowMap("r")}|${rowMap("b")}|${rowMap("swpd")}|${rowMap("buff")}|${rowMap("cache")}|${rowMap("si")}|" +
-      s"${rowMap("so")}|${rowMap("bi")}|${rowMap("bo")}|${rowMap("in")}|${rowMap("cs")}|${rowMap("us")}|${rowMap("sy")}|${rowMap("id")}|${rowMap("wa")}|" +
+    s"${rowMap("topic")}|${rowMap("time")}|${rowMap("r")}|${rowMap("b")}|${rowMap("swpd")}|${rowMap("buff")}|${rowMap("cache")}|${rowMap("si")}|" +
+      s"${rowMap("so")}|${rowMap("bi")}|${rowMap("bo")}|${rowMap("in_val")}|${rowMap("cs")}|${rowMap("us")}|${rowMap("sy")}|${rowMap("id")}|${rowMap("wa")}|" +
       s"${rowMap("st")}"
   }
 
