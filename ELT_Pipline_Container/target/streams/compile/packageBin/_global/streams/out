@@ -1,7 +1,7 @@
 [0m[[0m[0mdebug[0m] [0m[0mPackaging /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/elt_pipline_container_2.11-0.1.jar ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ELT.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/ELT.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ELTComponents$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/ELTComponents$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$anonfun$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Pipeline.class[0m
@@ -12,18 +12,26 @@
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$anonfun$2.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$KafkaWriter.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$KafkaWriter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$MySQLWriter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$MySQLWriter.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$anonfun$5.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$anonfun$5.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$anonfun$1$$anonfun$apply$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$anonfun$1$$anonfun$apply$1.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ELT$Load$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/ELT$Load$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	ELT$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/ELT$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ELTComponents.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/ELTComponents.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	ELTComponents$Load$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/ELTComponents$Load$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$typecreator2$1.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$typecreator2$1.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$anonfun$3.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$anonfun$3.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Pipeline$.class[0m
 [0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/Pipeline$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	PipelineUtils$$anonfun$4.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/target/scala-2.11/classes/PipelineUtils$$anonfun$4.class[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
