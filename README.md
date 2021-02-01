@@ -1,5 +1,4 @@
 ## Stream Data Pipeline with Flume Kafka StructureStream 
-![Hex.pm](https://img.shields.io/hexpm/l/plug?logo=Apache&logoColor=%23ff0000&style=flat-square)
 
 ### About The Project
 * This project was conducted in 2020 for the "Big Data Hadoop" training, and it was reorganized and uploaded to
