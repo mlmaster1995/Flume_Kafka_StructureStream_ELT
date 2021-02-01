@@ -4,6 +4,8 @@ import org.apache.spark.sql
 import org.apache.spark.sql.{ForeachWriter, Row, SparkSession}
 import org.apache.spark.sql.functions.udf
 import org.apache.spark.sql.types.StringType
+import java.util.Properties
+
 
 /*
 - PipleineUtils Class
@@ -11,9 +13,6 @@ import org.apache.spark.sql.types.StringType
 - user could define any sources and any functions related to ELT
 - Pipeline Class takes the user-defined functions to process data and writes to certain destination
 */
-
-import java.util.Properties
-
 object PipelineUtils extends Serializable {
 
   /*
@@ -40,17 +39,6 @@ object PipelineUtils extends Serializable {
     2 -> "cxln2.c.thelab-240901.internal:6667",
     3 -> "cxln3.c.thelab-240901.internal:6667",
     4 -> "cxln4.c.thelab-240901.internal:6667"
-  )
-
-  /*
-  - Mysql info
-  */
-  val mysqlInfo = Map[String, String](
-    "url" -> "jdbc:mysql://cxln2.c.thelab-240901.internal:3306",
-    "username" -> "sqoopuser",
-    "password" -> "NHkkP876rp",
-    "database" -> "retail_db",
-    "table" -> "from_stream"
   )
 
   /*
@@ -99,9 +87,4 @@ object PipelineUtils extends Serializable {
     def process(row: Row) = producer.send(new ProducerRecord(topic, func(row)))
     def close(errorOrNull: Throwable) = producer.close
   }
-
-
-
-
-
 }

@@ -2,6 +2,11 @@ import PipelineUtils._
 import org.apache.spark.sql
 import org.apache.spark.sql._
 
+/*
+- ELTComponents Class
+- three permanent components in each pieline
+- each compoent is built based on spark structured stream and accepts user-define-function
+*/
 object ELTComponents extends Serializable {
   /*
    - Extract
