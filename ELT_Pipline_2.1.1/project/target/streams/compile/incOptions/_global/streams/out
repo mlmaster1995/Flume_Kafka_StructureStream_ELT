@@ -1,0 +1,2 @@
+[debug] Created transactional ClassFileManager with tempDir = /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/project/target/scala-2.12/sbt-1.0/classes.bak
+[debug] Removing the temporary directory used for backing up class files: /home/ky/Documents/hadoop_training/Hadoop_Final_Review_Files/Big_Data_Git/Flume_Kafka_SparkStructureStream_ELT/ELT_Pipline_Container/project/target/scala-2.12/sbt-1.0/classes.bak

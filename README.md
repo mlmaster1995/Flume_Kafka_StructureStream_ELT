@@ -24,10 +24,10 @@ The pipeline includes:
 * [Kafka 0.10.2](https://kafka.apache.org/0102/documentation.html)
 
 ### Usage 
-* "vmstat_flume_kafka.conf" is the flume agent file and kafka servers needs to be modified for further use.
+* "vmstat_flume_kafka.conf" is the flume agent file ands kafka servers needs to be modified for further use.
 * "submit_spark_applicaiton.sh" is a bash script file to submit the spark applicaiton with all jar files.
 * "kafka-clients-0.10.2.2.jar" and "spark-sql-kafka-0-10_2.11-2.1.1.jar" are two jar files for
 this proejct. 
 
 ### Contact
-* K. Yang: kyang3@lakeheadu.ca
+* C. Young: kyang3@lakeheadu.ca
