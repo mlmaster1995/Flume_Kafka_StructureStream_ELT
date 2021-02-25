@@ -11,6 +11,7 @@ of this project is limited by the spark version.
 
 ### Pipeline
 Pipelines are shown as the following image: 
+![Big Data Flow Charts](https://user-images.githubusercontent.com/55723894/106520489-de327a00-64aa-11eb-85aa-ede356e8afb5.jpeg)
 
 The pipeline includes: 
 * vmstat Data -> Flume -> Kafka -> Structured Stream -> Console
@@ -30,4 +31,5 @@ The pipeline includes:
 this proejct. 
 
 ### Contact
+
 * C. Young: kyang3@lakeheadu.ca
