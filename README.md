@@ -1,4 +1,4 @@
-## Stream Data Pipeline with Flume Kafka StructureStream 
+## Basic Data Pipline with Spark Structred Streaming 
 
 ### About The Project
 * This project was conducted in 2020 for the "Big Data Hadoop" training, and it was reorganized and uploaded to
